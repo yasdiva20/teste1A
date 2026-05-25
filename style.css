@@ -3,3 +3,14 @@ background-color:#DA70D6 ;
 
 
 }
+
+
+.capa{
+    color:khaki
+    font-size: 20px;
+}
+
+#princesa{
+    display:flex;
+    padding-left: 200px;
+}

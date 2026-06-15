@@ -1,12 +1,27 @@
-body{
-background-color:#DA70D6 ;
-
-
+*{
+margin: 0;
+padding: 0;
 }
 
 
+
+
+
+body{
+background-color:#DA70D6 ;
+color:aliceblue;
+margin: 0px;
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px #DA70D6;
+    margin: 20px;
+    font-size: 32px;
+    color: aliceblue;
+}
 .capa{
-    color:khaki
+    color:khaki ;
     font-size: 20px;
 }
 
@@ -14,3 +29,11 @@ background-color:#DA70D6 ;
     display:flex;
     padding-left: 200px;
 }
+
+.videos{
+
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
